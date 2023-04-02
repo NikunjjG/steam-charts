@@ -1,0 +1,24 @@
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  .container {
+    width: 800px;
+    .links {
+        .lnk{
+          color: white;
+        }
+    }
+    .desc {
+        margin-top: 10px;
+        font-size: 13px;
+      span {
+        color: lightgray;
+        .high {
+          color: white;
+        }
+      }
+    }
+  }
+}

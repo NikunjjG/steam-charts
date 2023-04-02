@@ -1,0 +1,25 @@
+.global{
+    min-height: 100vh;
+    min-width: 100vw;;
+    background-color: black;
+    .about{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        line-height: 1.5;
+        .container{
+            width: 800px;
+            .lnk{
+                color: white;
+                text-decoration: none;
+            }
+            .desc{
+                margin-right: 20px;
+                color: rgb(171, 170, 170);
+                .high{
+                    color: white;
+                }
+            }
+        }
+    }
+}

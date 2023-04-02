@@ -1,0 +1,11 @@
+.trending{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .container{
+        width: 800px;
+    }
+}
